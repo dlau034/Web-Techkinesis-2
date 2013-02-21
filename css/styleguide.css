@@ -1,0 +1,94 @@
+    /* Styleguide.css */
+
+/*This stylesheet container repeating styles that are used in Techkinesis Module Web Design Projects. Please style each job accordly and link before modules.css*/
+
+    /* GLOBAL STYLES
+    -------------------------------------------------- */
+
+
+body {
+  font-size: 14px;
+  font-family: "ubuntu";
+  background-image: url("../images/bg_grey.jpg");
+
+  /*use this only if you are using navbar-fixed-top*/
+  margin-top: 40px; 
+}
+
+  /*use this only if you are using navbar-fixed-top*/
+@media (max-width: 979px) {
+  body {
+    margin-top: 0px;
+  }
+}
+
+    /* Button Styling
+    -------------------------------------------------- */
+
+.btn-tk {
+  display: inline-block;
+  /**display: inline;*/
+  padding: 5px 12px;
+  /*margin-bottom: 0;*/
+  font-size: 1em;
+  line-height: 1em;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0.095em 0 #8A5849;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #EF716F;
+  border: 1px solid #EF716F;
+  font-family: "ubuntu";
+  -webkit-border-radius: 0.4em;
+     -moz-border-radius: 0.4em;
+          border-radius: 0.4em;
+
+  -webkit-box-shadow: 0 0.2em 0 #8A5849;
+     -moz-box-shadow: 0 0.2em 0 #8A5849;
+          box-shadow: 0 0.em 0 #8A5849;
+  /*transition: all 0.3s linear;s*/
+  /*position: absolute;*/
+  /*float: left;*/
+}
+
+.btn-tk:hover {
+  -webkit-box-shadow: 0 0.1em 0 #8A5849;
+     -moz-box-shadow: 0 0.1em 0 #8A5849;
+          box-shadow: 0 0.1em 0 #8A5849;  
+  margin-top: 0.1em;          
+}
+
+    /* Button Sizing; */
+
+.btn-big {
+  font-size: 1.2em;
+  padding: 10px 20px;
+}
+
+.btn-bigger {
+  font-size: 1.5em;
+  padding: 13px 30px;
+}
+
+.btn-massive {
+  font-size: 2.2em;
+  padding: 13px 40px;
+}
+
+    /* Button Colors; */
+
+.btn-yellow {
+  background-color: #FBB040;
+  border: 1px solid #FBB040;
+    -webkit-box-shadow: 0 0.2em 0 #9E713B;
+     -moz-box-shadow: 0 0.2em 0 #9E713B;
+          box-shadow: 0 0.2em 0 #9E713B;
+  /*text-shadow: 0 0.09em 0 #9E713B;*/
+}
+
+    /* Navigations
+    -------------------------------------------------- */
+    /* Full Responsive */
+
+

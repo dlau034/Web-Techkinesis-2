@@ -1,0 +1,52 @@
+    
+    /* Techkinesis Logo Styling
+    -------------------------------------------------- */
+	/*To use teckinesis logo call : btn-tk btn-massive btn-yellow btn-tk-logo*/
+	/*Style these and inline*/
+	
+.btn-tk-logo {
+  padding: 6px 13px 9px 13px;
+      -webkit-box-shadow: 0 0.2em 0 #9E713B;
+     -moz-box-shadow: 0 0.2em 0 #9E713B;
+          box-shadow: 0 0.2em 0 #9E713B;
+  text-shadow: 0 0.1em 0 #9E713B;
+  letter-spacing: 2px;
+  border-radius: 8px;
+
+  /*Posiitioning on Navbar */
+  position: absolute;
+  top: 5px;
+}
+
+#tk_kinesis {
+	font-family: "arvo"
+}
+
+    /* Navigations
+    -------------------------------------------------- */
+	/*Full Responsive*/
+
+/*Styles Navigation Bar*/
+.nav_bar_style { 
+  background-color: transparent; 
+  background-image: none;
+  box-shadow: none !important;
+  border: none;
+}
+
+/*Styles Mini Menu Button*/
+.btn-mini-menu {
+	background-color: red !important; 
+	background-image: none !important;
+}
+
+/*Styles Navigatio Bar*/
+#nav_items_group a {
+	color: #6D6E71;
+	font-weight: 500;
+}
+
+/*Nav Active Mode*/
+.nav_active {
+	color: red;
+}
