@@ -11,8 +11,12 @@ body {
   font-family: "ubuntu";
   background-image: url("../images/bg_grey.jpg");
 
+  /*Added to remove the 20px side paddings when below 780px*/
+  padding-right:0px;
+  padding-left:0px;  
+
   /*use this only if you are using navbar-fixed-top*/
-  margin-top: 40px; 
+  margin-top: 60px; 
 }
 
   /*use this only if you are using navbar-fixed-top*/
@@ -20,6 +24,49 @@ body {
   body {
     margin-top: 0px;
   }
+}
+
+
+  /*use this only if you are using navbar-fixed-top, see body tag*/
+@media (max-width: 979px) {
+  .container { 
+    margin-left: 20px;
+    margin-right:20px;
+  }
+}
+
+a {
+  color: #f9f9f9;
+}
+
+a:hover {
+  color: #FBB040;
+  text-decoration: none;
+}
+
+h1 {
+  color:#FBB040;
+  font-size: 4.0em;
+  font-weight: 700;
+  text-shadow: 0px 2px 0px #f9f9f9;
+  line-height: 1em;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 500;
+}
+
+h3 {
+  font-size: 1.4em;
+  line-height: 1.4em;
+  font-weight: 100;
+  font-family: "arvo";
+  color:#555;
+}
+
+p {
+  font-size: 15px
 }
 
     /* Button Styling
@@ -47,9 +94,8 @@ body {
   -webkit-box-shadow: 0 0.2em 0 #8A5849;
      -moz-box-shadow: 0 0.2em 0 #8A5849;
           box-shadow: 0 0.em 0 #8A5849;
-  /*transition: all 0.3s linear;s*/
-  /*position: absolute;*/
-  /*float: left;*/
+  position: absolute;
+
 }
 
 .btn-tk:hover {
@@ -87,8 +133,5 @@ body {
   /*text-shadow: 0 0.09em 0 #9E713B;*/
 }
 
-    /* Navigations
-    -------------------------------------------------- */
-    /* Full Responsive */
 
 

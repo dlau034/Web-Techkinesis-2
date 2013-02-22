@@ -18,6 +18,12 @@
   top: 5px;
 }
 
+@media (max-width: 768px) {
+	.btn-tk-logo{
+		margin-left: 20px;
+	}
+}
+
 #tk_kinesis {
 	font-family: "arvo"
 }
@@ -36,11 +42,13 @@
 
 /*Styles Mini Menu Button*/
 .btn-mini-menu {
-	background-color: red !important; 
+	background-color: #FBB040 !important; 
 	background-image: none !important;
+	padding-bottom: 10px !important;	
+	padding-top: 10px !important;
 }
 
-/*Styles Navigatio Bar*/
+/*Styles Navigation Bar*/
 #nav_items_group a {
 	color: #6D6E71;
 	font-weight: 500;
@@ -49,4 +57,76 @@
 /*Nav Active Mode*/
 .nav_active {
 	color: red;
+}
+
+
+    /* Module One - Hero Unit, Static Image
+    -------------------------------------------------- */
+	/*Full Responsive*/
+
+.Hero_image {
+	/*background-color: red;*/
+	background-image: url("../images/device_bg.png");
+	padding-top: 20px;
+	padding-bottom: 250px;
+	background-position: bottom;
+	background-repeat: no-repeat;
+	border-bottom: 20px solid #EE6765;
+}
+
+@media (max-width: 767px) {
+	.Hero_image {
+		padding-bottom: 150px;		
+		background-size: 1000px;
+	}
+}
+
+    /* Module Two - Features Row
+    -------------------------------------------------- */
+	/* Full Responsive x 4 */
+
+#row_group {
+	background-color: #EF716F;
+	padding-top: 5em;
+	padding-bottom: 4em;
+	border-bottom: 20px solid #F07B79;
+}	
+
+.row_feature > a > p {
+	margin-bottom: 30px; 
+}	
+
+#row_group h2 {
+	font-family: "arvo";
+}
+
+#row_group p {
+	margin-top: 20px;
+}	
+
+.row_feature {
+	text-align: center;	
+}
+
+@media (max-width: 979px) and (min-width: 768px) {
+	.row_feature {
+		width: 320px;
+	}
+	#row_group > div.container {
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 767px) {
+	#row_group p {
+		width: 70%;
+		margin-right: auto;
+		margin-left: auto;
+	}	
+}
+
+#row_head {
+	text-align: center;
+	color: white;
+	margin-bottom: 50px;
 }
