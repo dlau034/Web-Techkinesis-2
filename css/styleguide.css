@@ -16,22 +16,25 @@ body {
   padding-left:0px;  
 
   /*use this only if you are using navbar-fixed-top*/
-  margin-top: 60px; 
+/*  margin-top: 60px; */
 }
 
   /*use this only if you are using navbar-fixed-top*/
-@media (max-width: 979px) {
+/*@media (max-width: 979px) {
   body {
     margin-top: 0px;
   }
-}
+}*/
 
 
   /*use this only if you are using navbar-fixed-top, see body tag*/
 @media (max-width: 979px) {
   .container { 
-    margin-left: 20px;
-    margin-right:20px;
+/*    margin-left: 20px;
+    margin-right:20px;*/
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -58,15 +61,22 @@ h2 {
 }
 
 h3 {
-  font-size: 1.4em;
-  line-height: 1.4em;
+  font-size: 1.6em;
+  line-height: 1.6em;
   font-weight: 100;
   font-family: "arvo";
   color:#555;
 }
 
 p {
-  font-size: 15px
+  font-size: 1.3em;
+  line-height: 1.4em;
+}
+
+@media (max-width: 480px) {
+  h1 {
+    font-size: 3.2em;
+  }
 }
 
     /* Button Styling
@@ -98,7 +108,11 @@ p {
 
 }
 
-.btn-tk:hover {
+a.btn-tk {
+  color: white;
+}
+
+.btn-tk:active {
   -webkit-box-shadow: 0 0.1em 0 #8A5849;
      -moz-box-shadow: 0 0.1em 0 #8A5849;
           box-shadow: 0 0.1em 0 #8A5849;  
