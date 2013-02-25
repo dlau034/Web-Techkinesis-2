@@ -104,10 +104,6 @@
 	margin-bottom: 30px; 
 }	
 
-#row_group h2 {
-	font-family: "arvo";
-}
-
 #row_group p {
 	margin-top: 20px;
 }	
@@ -262,6 +258,25 @@
 	}
 }
 
-    /* Module Seven - Slider Thumbnail Unit 
+    /* Module Seven - Submit Form Unit 
     -------------------------------------------------- */
 	/*  */
+
+.SubForm_bg {
+	/*background-color: red;	*/
+	background-image: url("../images/kindajean_@2X.png");
+}
+.SubForm_bg h2 {
+	text-align: center;
+	margin: 0em auto 1em auto;
+	color: #EE6765;
+}
+.SubForm_box {
+	margin: 4em auto;
+}
+
+.radio.SubForm {
+	margin-top: 1.2em;
+	margin-bottom: 1em;
+}
+

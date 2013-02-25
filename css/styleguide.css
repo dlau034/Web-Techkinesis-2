@@ -56,8 +56,12 @@ h1 {
 }
 
 h2 {
-  font-size: 3em;
+  font-size: 3.5em;
   font-weight: 500;
+  font-family: "Arvo";
+  color: white;
+  text-shadow: 0 0.05em 0em #555;
+  line-height: 1.2em;
 }
 
 h3 {
@@ -82,11 +86,9 @@ p {
     /* Button Styling
     -------------------------------------------------- */
 
-.btn-tk {
+/*.btn-tk {
   display: inline-block;
-  /**display: inline;*/
   padding: 5px 12px;
-  /*margin-bottom: 0;*/
   font-size: 1em;
   line-height: 1em;
   color: white;
@@ -105,7 +107,29 @@ p {
      -moz-box-shadow: 0 0.2em 0 #8A5849;
           box-shadow: 0 0.em 0 #8A5849;
   position: absolute;
+}*/
 
+.btn-tk {
+  display: block;
+  padding: 5px 12px;
+  font-size: 1em;
+  line-height: 1em;
+  color: white;
+  text-align: center;
+  text-shadow: 0 0.095em 0 #8A5849;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #EF716F;
+  border: 1px solid #EF716F;
+  font-family: "ubuntu";
+  -webkit-border-radius: 0.4em;
+  -moz-border-radius: 0.4em;
+  border-radius: 0.4em;
+  -webkit-box-shadow: 0 0.2em 0 #8A5849;
+  -moz-box-shadow: 0 0.2em 0 #8A5849;
+  box-shadow: 0 0.em 0 #8A5849;
+  position: relative;
+  /*margin: 0 auto;*/
 }
 
 a.btn-tk {
@@ -132,8 +156,8 @@ a.btn-tk {
 }
 
 .btn-massive {
-  font-size: 2.2em;
-  padding: 13px 40px;
+  font-size: 2.0em;
+  padding: 13px 30px;
 }
 
     /* Button Colors; */
@@ -146,6 +170,45 @@ a.btn-tk {
           box-shadow: 0 0.2em 0 #9E713B;
   /*text-shadow: 0 0.09em 0 #9E713B;*/
 }
+
+  /* Button Positioning */
+
+.btn-center {
+  margin:0 auto;
+}
+
+.btn-right {
+  float: right;
+}
+
+.btn-left {
+  float: left;
+}
+
+    /* Form Styling
+    -------------------------------------------------- */
+
+input.form-normal {
+  padding-top: 1.2em;
+  padding-bottom: 1.0em;
+  font-family:"ubuntu";
+  font-size: 1.5em;
+  text-indent: 0.3em;
+  width: 100%;
+  margin: 0.5em 0 0.5em 0; 
+  border-radius: 0;
+}
+
+.area_normal {
+  /*background-color: red;*/
+  width: 100%;
+  font-size: 1.5em;
+  font-family: "ubuntu";
+  border-radius: 0;
+  padding: 0.5em;
+  margin: 0.5em 0 0.5em 0; 
+}
+
 
 
 

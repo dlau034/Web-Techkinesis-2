@@ -24,6 +24,7 @@
 		D52868A916D7DA4D00B9D453 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D528688116D7DA4D00B9D453 /* Foundation.framework */; };
 		D52868B116D7DA4D00B9D453 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D52868AF16D7DA4D00B9D453 /* InfoPlist.strings */; };
 		D52868B416D7DA4D00B9D453 /* davidTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D52868B316D7DA4D00B9D453 /* davidTests.m */; };
+		D5E4CD5E16DAA89500D66D9C /* Application.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5E4CD5D16DAA89500D66D9C /* Application.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +61,7 @@
 		D52868B016D7DA4D00B9D453 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D52868B216D7DA4D00B9D453 /* davidTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = davidTests.h; sourceTree = "<group>"; };
 		D52868B316D7DA4D00B9D453 /* davidTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = davidTests.m; sourceTree = "<group>"; };
+		D5E4CD5D16DAA89500D66D9C /* Application.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Application.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 		D528687316D7DA4D00B9D453 = {
 			isa = PBXGroup;
 			children = (
+				D5E4CD5D16DAA89500D66D9C /* Application.xib */,
 				D528688516D7DA4D00B9D453 /* david */,
 				D52868AC16D7DA4D00B9D453 /* davidTests */,
 				D528687E16D7DA4D00B9D453 /* Frameworks */,
@@ -240,6 +243,7 @@
 				D528689616D7DA4D00B9D453 /* Default-568h@2x.png in Resources */,
 				D528689916D7DA4D00B9D453 /* MainStoryboard_iPhone.storyboard in Resources */,
 				D528689C16D7DA4D00B9D453 /* MainStoryboard_iPad.storyboard in Resources */,
+				D5E4CD5E16DAA89500D66D9C /* Application.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -467,6 +471,7 @@
 				D52868B916D7DA4D00B9D453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D52868BA16D7DA4D00B9D453 /* Build configuration list for PBXNativeTarget "davidTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +480,7 @@
 				D52868BC16D7DA4D00B9D453 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
