@@ -79,7 +79,7 @@
 	padding-bottom: 250px;
 	background-position: bottom;
 	background-repeat: no-repeat;
-	border-bottom: 40px solid #F07B79;
+	/*border-bottom: 40px solid #F07B79;*/ 
 }	
 
 @media (max-width: 767px) {
@@ -94,10 +94,10 @@
 	/* Full Responsive x 4 */
 
 #row_group {
-	background-color: #EF716F;
+	background-color: #FBC067; 
 	padding-top: 7em;
 	padding-bottom: 6em;
-	border-bottom: 40px solid #F07B79;
+	border-bottom: 40px solid #FBB040;
 }	
 
 .row_feature > a > p {
@@ -190,9 +190,9 @@
 	/* Units are stacked left right, so on */
 
 .detail_unit_bg {
-	border-top: 40px solid #FBC067;
-	background-color: #FBB852;
-	border-bottom: 40px solid #FBB040;
+	border-top: 40px solid #808285;
+	background-color: #6D6E71;
+	border-bottom: 40px solid #808285;
 }
 
 	/* Makes text align to the Left */
@@ -258,18 +258,30 @@
 	}
 }
 
+
+
+@media (min-width: 768px) to (max-width: 1199px) {
+	.featurette h3 {
+		font-size: 1.3rem;
+	}
+}
+@media (min-width: 1200px) {
+	.featurette h3 {
+		font-size: 1.7rem;
+	}
+}
+
     /* Module Seven - Submit Form Unit 
     -------------------------------------------------- */
 	/*  */
 
 .SubForm_bg {
-	/*background-color: red;	*/
 	background-image: url("../images/kindajean_@2X.png");
 }
 .SubForm_bg h2 {
 	text-align: center;
 	margin: 0em auto 1em auto;
-	color: #EE6765;
+	color: #6D6E71;
 }
 .SubForm_box {
 	margin: 4em 0 4em 0;
@@ -280,3 +292,126 @@
 	margin-bottom: 1em;
 }
 
+    /* Module Eight - Pricing Unit
+    -------------------------------------------------- */
+	/*  */
+
+.price_bg {
+	background-color: #FBC067; 
+	padding-top: 4em;
+	padding-bottom: 4em;
+	border-top: 4em solid #FCC68B;
+	border-bottom: 4em solid #FCC68B;
+
+}	
+.price_unit {
+	background-color: #F5F5F5;
+	margin-top: 2em;
+	margin-bottom: 2em;
+	border-radius: 0.5em;
+	-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+	box-sizing: border-box; 
+	/*border: 2px solid #888;*/
+    -webkit-box-shadow: 0 0em 1em #9E713B;
+     -moz-box-shadow: 0 0em 1em #9E713B;
+          box-shadow: 0 0em 1em #9E713B;
+          padding: 0.4em 0em 2em 0em;
+    width: 90%;      
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (max-width: 1199px) to (min-width: 768px) {
+	.price_unit {
+		width: 100%;
+	}
+}
+@media (max-width: 767px)  {
+	.price_unit {
+		width: 75%;
+	}
+}
+@media (max-width: 479px) {
+	.price_unit {
+		width: 100%;
+	}
+}
+.price_unit:hover {
+	background-color: white;
+	cursor:pointer;
+}
+.price_unit h2 {
+	color: #FBB040;
+	text-align: center;
+	margin-top: 0.5em;
+}
+.price_unit p {
+	padding: 0.5em 2em 0.5em 2em ;
+}
+.price_unit ul {
+	padding: 0em 2em 0em 2em ;
+}
+.price_unit ul > li {
+	font-size: 1.2em;
+	line-height: 1.4em;
+}
+
+    /* Module Nine - Full Width Slider Unit
+    -------------------------------------------------- */
+	/*  */
+
+.carousel_module {
+	background-color: red;
+	margin-bottom: 0px;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
+}
+.fw_img {
+	width: 100%;
+}
+.custom_arrows {
+	color: white;
+	opacity: 1;
+	background: none;
+	border: none;
+	font-size: 7em;
+	vertical-align: center;
+
+}
+.custom_arrows:hover {
+	color: #FBB040;
+}
+#indicator_position {
+	/*background-color: red;*/
+	top: auto;
+	right: auto;
+	bottom: 2em;
+	left: 50%;
+	margin-left:-1.4em;
+}
+    /* Module Ten - Footer Unit
+    -------------------------------------------------- */
+	/*  */
+
+.footer_unit_top {
+	/*background-color: #6D6E71;*/
+	background-image: url("../images/first_aid_kit_2.png");
+	border-bottom: 1px solid #898989;
+	padding-top: 1.5em;
+	padding-bottom: 1em;
+}	
+.footer_unit_bottom {
+	/*background-color: #6D6E71;*/
+	background-image: url("../images/first_aid_kit.png");
+	
+	padding-top: 2.5em;
+	padding-bottom: 2em;
+}	
+.footer_unit p {
+	text-align: center;
+}
+.footer_col {
+	margin-top: 1em;
+	margin-bottom: 1em;
+	
+}
