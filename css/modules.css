@@ -253,6 +253,9 @@
 	/*margin-bottom: 1em;*/
 	text-shadow: 0px 1px 0px #f5f5f5;
 }
+.imgtext_unit p {
+	color: #555;
+}
 .imgtext_unit img {
 	float: right;
 	max-width: 340px;
