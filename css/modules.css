@@ -6,7 +6,7 @@
 	
 .btn-tk-logo {
   padding: 6px 13px 9px 13px;
-      -webkit-box-shadow: 0 0.2em 0 #9E713B;
+      -webkit-box-shadow: 0 0.2em 0 #9E71B;
      -moz-box-shadow: 0 0.2em 0 #9E713B;
           box-shadow: 0 0.2em 0 #9E713B;
   text-shadow: 0 0.1em 0 #9E713B;
@@ -43,9 +43,10 @@
   background-image: none;
   /*box-shadow: none !important;*/
   border: none;
-  padding-right: 20px;
-  padding-left: 20px;
+  margin-right: 0px;
+  margin-left: 0px;
   border-radius: 0px;
+
 }
 
 /*Styles Mini Menu Button*/
@@ -56,7 +57,6 @@
 	padding-top: 10px !important;
 	margin-top: 15px !important;
 }
-
 
 /*Styles Navigation Bar*/
 #nav_items_group a {
@@ -86,6 +86,16 @@
 	height: 2.4em;
 	background-position: center;
 	margin-left: 0px !important;
+}
+
+@media (max-width: 480px) {
+	.brand {
+		background-size: 90%;
+		width: 11.5em;
+		padding-left: 0px!important;
+		padding-right: 0px!important;
+		padding-top: 6px!important;
+	}
 }
 
 /*Removes the margin when using navbar-fixed-up: fixed issue on iphone vertical*/
@@ -231,38 +241,26 @@
 	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
 	margin: 0 auto;
 }
-
-/*@media (max-width: 1199px) {
-	.image_full {
-	min-width: 1200px;
-	}
-}*/
-
     /* Module Five - Image/text Combo Unit
     -------------------------------------------------- */
 	/*  */	
 
 .imgtext_unit {
 	background-color: #FBC067; 
-	padding-top: 3em;
-	/*border-top: 4em solid red; */
+	padding-top: 5em;
 }
 .imgtext_unit h3 {
-	/*color: white;*/
-	/*float: left;*/
-	/*margin-bottom: 1em;*/
 	text-shadow: 0px 1px 0px #f5f5f5;
+	font-weight: 500;
 }
 .imgtext_unit p {
 	color: #555;
 }
 .imgtext_unit img {
-	float: right;
-	max-width: 340px;
 	height: auto;
 }		
 .imgtext {
-	margin-bottom: 4em;
+	/*margin-bottom: 4em;*/
 }
 @media (max-width: 767px) {
 	.imgtext_unit img {
@@ -270,8 +268,11 @@
 		margin-left: -5em;
 	}
 }
+#imgtext_img img{
+		margin: 0 auto;
+	display: block;
 
-
+}
     /* Module Six - Detail Stack Unit 
     -------------------------------------------------- */
 	/* Units are stacked left right, so on */
@@ -288,7 +289,7 @@
 
 .detail_unit_bg h2 {
 	color: #FBB040;
-	margin-top: 1em;
+	margin-top: 2em;
 	/*margin-bottom: 0.5em;*/
 	text-align: center;
 }
@@ -335,9 +336,6 @@
 	.feat_img_left {
 		margin:0em 2em 2em 2em;
 	}
-	.featurette h3 {
-		font-size: 1.3em;
-	}
 }
 
 @media (max-width: 767px) {
@@ -361,12 +359,12 @@
 }
 @media (min-width: 768px) to (max-width: 1199px) {
 	.featurette h3 {
-		font-size: 1.3rem;
+		font-size: 1.2rem;
 	}
 }
 @media (min-width: 1200px) {
 	.featurette h3 {
-		font-size: 1.6rem;
+		font-size: 1.5rem;
 	}
 }
 
@@ -380,11 +378,12 @@
 
 .SubForm_bg {
 	/*background-image: url("../images/kindajean_@2X.png");*/
+	background-color: #FBC067; 
 }
 .SubForm_bg h2 {
 	text-align: center;
-	margin: 0em auto 1em auto;
-	color: #FBB040;
+	margin: 1.8em auto 1em auto;
+	/*color: #FBB040;*/
 }
 .SubForm_box {
 	margin: 4em 0 4em 0;
