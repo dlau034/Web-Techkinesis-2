@@ -32,14 +32,20 @@
     -------------------------------------------------- */
 	/*Full Responsive*/
 
+.navbar-fixed-top, {
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}    
+
 /*Styles Navigation Bar*/
 .nav_bar_style { 
-  background-color: transparent; 
+  background-color: rgba(255,255,255,0.8); 
   background-image: none;
-  box-shadow: none !important;
+  /*box-shadow: none !important;*/
   border: none;
-  padding-right: 0px;
-  padding-left: 0px;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-radius: 0px;
 }
 
 /*Styles Mini Menu Button*/
@@ -48,17 +54,38 @@
 	background-image: none !important;
 	padding-bottom: 10px !important;	
 	padding-top: 10px !important;
+	margin-top: 15px !important;
 }
+
 
 /*Styles Navigation Bar*/
 #nav_items_group a {
 	color: #6D6E71;
 	font-weight: 500;
+	text-shadow: none;
+	font-size: 1.1em; ;
+}
+#nav_items_group a:hover {
+	color: #FBB040;
+	border-bottom: 3px solid #FBB040;
+}
+#nav_items_group {
+	margin-top: 1em;
 }
 
 /*Nav Active Mode*/
 .nav_active {
 	color: red;
+}
+
+.brand {
+	background-image: url("../images/logo.png");
+	background-repeat: no-repeat;
+	text-indent: -999px;
+	width: 14em;
+	height: 2.4em;
+	background-position: center;
+	margin-left: 0px !important;
 }
 
 /*Removes the margin when using navbar-fixed-up: fixed issue on iphone vertical*/
@@ -88,6 +115,18 @@
 		background-size: 1000px;
 	}
 }
+.Hero_image button {
+	/*margin-left: 0.4em;*/
+}
+
+.Hero_image div.container {
+	/*width: 95%;*/	
+}
+.Hero_content {
+	width: 95%;
+	margin: 0 auto;
+}
+
 
     /* Module Two - Features Row Unit
     -------------------------------------------------- */
@@ -99,19 +138,23 @@
 	padding-bottom: 6em;
 	border-bottom: 40px solid #FBB040;
 }	
-
 .row_feature > a > p {
 	margin-bottom: 30px; 
 }	
-
+.row_feature b {
+	font-weight: bold;
+}
 #row_group p {
 	margin-top: 20px;
 }	
-
+#row_group h3 {
+	margin-top: 20px;
+	text-shadow: 0px 1px 0px #f5f5f5;
+	text-align: center;
+}	
 .row_feature {
 	text-align: center;	
 }
-
 @media (max-width: 979px) and (min-width: 768px) {
 	.row_feature {
 		width: 320px;
@@ -123,7 +166,6 @@
 		margin-left: 0px; 
 	}
 }
-
 @media (max-width: 767px) {
 	#row_group p {
 		width: 70%;
@@ -131,13 +173,23 @@
 		margin-left: auto;
 	}	
 }
-
 #row_head {
 	text-align: center;
-	color: white;
-	margin-bottom: 50px;
+	/*color: white;*/
+	/*margin-bottom: 50px;*/
 }
 
+.row_img {
+	/*padding: 4px;*/
+	background-color: transparent;
+	-webkit-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+	border: 0.6em solid white;
+}
+.row_img:hover {
+	background-color: white;
+}
     /* Module Three - Text Unit
     -------------------------------------------------- */
 	/* Centered Text  + Button */
@@ -157,6 +209,7 @@
 	width: 75%;
 	margin: 0em auto 2em auto;
 	font-size: 2rem;
+	text-shadow: 0px 2px 0px #f9f9f9;
 }
 
 #text_unit_btn {
@@ -169,30 +222,72 @@
 	margin-left: -6.2em;
 }
 
-    /* Module Five - Image Full Width Unit 
+    /* Module Four - Image Full Width Unit 
     -------------------------------------------------- */
 	/* Full Width Image */
 
 .image_full {
-	width: 120%;
-	box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.4);
+	width: 100%;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8);
 	margin: 0 auto;
 }
 
-@media (max-width: 1199px) {
+/*@media (max-width: 1199px) {
 	.image_full {
 	min-width: 1200px;
 	}
+}*/
+
+    /* Module Five - Image/text Combo Unit
+    -------------------------------------------------- */
+	/*  */	
+
+.imgtext_unit {
+	background-color: #FBC067; 
+	padding-top: 3em;
+	/*border-top: 4em solid red; */
 }
+.imgtext_unit h3 {
+	/*color: white;*/
+	/*float: left;*/
+	/*margin-bottom: 1em;*/
+	text-shadow: 0px 1px 0px #f5f5f5;
+}
+.imgtext_unit img {
+	float: right;
+	max-width: 340px;
+	height: auto;
+}		
+.imgtext {
+	margin-bottom: 4em;
+}
+@media (max-width: 767px) {
+	.imgtext_unit img {
+		left: 50%;
+		margin-left: -5em;
+	}
+}
+
 
     /* Module Six - Detail Stack Unit 
     -------------------------------------------------- */
 	/* Units are stacked left right, so on */
 
 .detail_unit_bg {
-	border-top: 40px solid #808285;
-	background-color: #6D6E71;
-	border-bottom: 40px solid #808285;
+	/*border-top: 40px solid #808285;*/
+	/*background-color: #6D6E71;*/
+	background-image: url("../images/pinstriped_suit1.png");
+	/*border-bottom: 40px solid #808285;*/
+    -webkit-box-shadow: 0 0em 20px rgba(0, 0, 0, 0.8);
+     -moz-box-shadow: 0 0em 20px rgba(0, 0, 0, 0.8);
+          box-shadow: 0 0em 20px rgba(0, 0, 0, 0.8);
+}
+
+.detail_unit_bg h2 {
+	color: #FBB040;
+	margin-top: 1em;
+	/*margin-bottom: 0.5em;*/
+	text-align: center;
 }
 
 	/* Makes text align to the Left */
@@ -214,7 +309,10 @@
 /*	background-color: red;*/ /*Uncomment to scale to image height*/
 	padding-top: 2em;
 	width: 90%;
-	margin: 2em auto;
+	margin: 1em auto;
+}
+.featurette h3 {
+	text-shadow: 0px -1px 0px #ccc;
 }
 
 .feat_img_right {
@@ -249,6 +347,7 @@
 	.featurette h3 {
 		clear: both;
 		text-align: center;
+		text-shadow: none;
 	}
 	.featurette img {
 		position: relative;
@@ -257,9 +356,6 @@
 		float: none;		
 	}
 }
-
-
-
 @media (min-width: 768px) to (max-width: 1199px) {
 	.featurette h3 {
 		font-size: 1.3rem;
@@ -267,21 +363,25 @@
 }
 @media (min-width: 1200px) {
 	.featurette h3 {
-		font-size: 1.7rem;
+		font-size: 1.6rem;
 	}
 }
+
+
+
+
 
     /* Module Seven - Submit Form Unit 
     -------------------------------------------------- */
 	/*  */
 
 .SubForm_bg {
-	background-image: url("../images/kindajean_@2X.png");
+	/*background-image: url("../images/kindajean_@2X.png");*/
 }
 .SubForm_bg h2 {
 	text-align: center;
 	margin: 0em auto 1em auto;
-	color: #6D6E71;
+	color: #FBB040;
 }
 .SubForm_box {
 	margin: 4em 0 4em 0;
@@ -389,29 +489,56 @@
 	left: 50%;
 	margin-left:-1.4em;
 }
-    /* Module Ten - Footer Unit
+
+    /* Module Ten - logos Unit
     -------------------------------------------------- */
 	/*  */
 
-.footer_unit_top {
+.logo_unit {
 	/*background-color: #6D6E71;*/
 	background-image: url("../images/first_aid_kit_2.png");
-	border-bottom: 1px solid #898989;
-	padding-top: 1.5em;
+	padding-top: 2em;
+	padding-bottom: 4em;
+}
+.logo_unit h2 {
+	text-align: center;	
+}
+.logo_unit hr {
+  border-top: 1px solid #898989;
+  border-bottom: 1px solid #f9f9f9;
+}
+.logo_unit img {
+	padding-top: 1em;
 	padding-bottom: 1em;
-}	
-.footer_unit_bottom {
+	left: 50%;
+	margin-left: -10em;
+	position: relative;
+}
+
+@media (min-width:980px) {
+	.logo_unit img	{
+		margin: 0 auto;	
+		left: auto;
+	}	
+}
+
+    /* Module Eleven - Footer Unit
+    -------------------------------------------------- */
+	/*  */
+
+.footer_unit {
 	/*background-color: #6D6E71;*/
 	background-image: url("../images/first_aid_kit.png");
-	
-	padding-top: 2.5em;
-	padding-bottom: 2em;
-}	
+	border-top: 1px solid #898989;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}		
 .footer_unit p {
 	text-align: center;
 }
 .footer_col {
-	margin-top: 1em;
-	margin-bottom: 1em;
-	
+	margin-top: 2em;
+	margin-bottom: 2em;
 }
+
+
