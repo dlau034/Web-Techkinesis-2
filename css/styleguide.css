@@ -25,6 +25,8 @@ body {
     margin-top: 0px;
   }
 }
+
+
   /*use this only if you are using navbar-fixed-top, see body tag*/
 @media (max-width: 979px) {
   .container { 
@@ -171,8 +173,9 @@ a.btn-tk:hover {
     -------------------------------------------------- */
 
 input.form-normal {
-  padding-top: 1.2em;
-  padding-bottom: 1.0em;
+  /*padding-top: 1.2em;*/
+  /*padding-bottom: 1.0em;*/
+  height: 2.2em;
   font-family:"ubuntu";
   font-size: 1.5em;
   text-indent: 0.3em;
