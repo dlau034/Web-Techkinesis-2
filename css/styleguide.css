@@ -22,7 +22,7 @@ body {
   /*use this only if you are using navbar-fixed-top*/
 @media (max-width: 979px) {
   body {
-    margin-top: 0px;
+    margin-top: 60px;
   }
 }
 
